@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font  -->
+    <link rel="stylesheet" href="">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="">
+    <!-- external js file -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <div class='result' id='result'>0</div>
+            <div class="keyboard">
+                <button class="item1 operator" onclick="removeAll()">AC</button>
+                <button class="item2 operator" onclick="insert('/')">&divide;</button>
+                <button class="item3 operator" onclick="insert('*')">&times;</button>
+                <button class="item4 number" onclick="insert(7)">7</button>
+                <button class="item5 number" onclick="insert(8)">8</button>
+                <button class="item6 number" onclick="insert(9)">9</button>
+                <button class="item7 operator" onclick="insert('-')">-</button>
+                <button class="item8 number" onclick="insert(4)">4</button>
+                <button class="item9 number" onclick="insert(5)">5</button>
+                <button class="item10 number" onclick="insert(6)">6</button>
+                <button class="item11 operator" onclick="insert('+')">+</button>
+                <button class="item12 number" onclick="insert(1)">1</button>
+                <button class="item13 number" onclick="insert(2)">2</button>
+                <button class="item14 number" onclick="insert(3)">3</button>
+                <button class="item15 equal" onclick="equal()">=</button>
+                <button class="item16 number" onclick="insert(0)">0</button>
+                <button class="item17 number"  onclick="insert('.')">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/calculator.js"></script>
+</body>
+</html>
